@@ -4,7 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Use mysql as the database for Active Record
-gem 'mysql2', 
+gem 'mysql2',
+
+
 
 group: :development
 gem 'pg', group: :production
@@ -12,6 +14,8 @@ gem 'rails_12factor', group: :production
 gem 'unicorn'
 gem 'better_errors'
 gem 'devise', '3.0.0'
+
+gem 'sqlite3' 
 
 group :development do
 gem 'rspec-rails', '2.14.0'
